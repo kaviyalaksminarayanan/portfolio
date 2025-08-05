@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a1f;
+    box-sizing: border-box;
+}
+.header{
+    height: 90vh;
+    background: radial-gradient(
+        circle at top center,
+        rgba(216, 115, 255, 0.15),
+        #0a0a1f 80%
+        );
+        background-color: #272772;
+        background-color: #0a0a1f;
+    }
+    .header .nav{
+        height: 70px;
+        padding: 10px;
+        align-content: center;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+}
+ul .right{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li>a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.content p{
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.icons a{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+}
+i{
+    color: rgb(55, 8, 55);
+    background: transparent;
+}
+.content{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: flex-start;
+    margin-left: 50px;
+    line-height: 40px;
+}
+.contentLeft{
+    width: 40%;
+}
+.aboutContent ul li{
+    list-style-type: disc;
+}
+
+.about{
+    background-color: #0a0a1f;
+    display: flex;
+    height: 60vh;
+}
+.aboutImg{
+    width: 45%;
+}
+.aboutContent{
+    /* background-color: purple; */
+    width: 750px;
+    height: 300px;
+    padding: 30px;
+    align-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(21, 1, 21);
+}
+.skillss{
+    background-color: #0a0a1f;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.skillss .skill{
+    text-align: center;
+    padding: 20px;
+    width: 25rem;
+    height: 170px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+.skillss .skill:hover{
+    box-shadow: 0px 0px 20px black;
+    transform: scale(1.05);
+}
+.skills{
+    height: 50vh;
+    align-content: center;
+}
+.skills h2{
+    margin-left: 50px;
+}
+.card{
+    width: 20rem;
+    height: 370px;
+    border-radius: 10px;
+    align-items: center;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.card img{
+    width: 100%;
+    border-radius: 13px 13px 0px 0px;
+    border: none;
+}
+.card-body{
+    width: 100%;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.05);
+    border: 0px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+form>input,textarea{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+}
+.contactLeft{
+    width: 50%;
+    display: inline;
+}
+.contactForm{
+    width: 50%;
+}
+.form input:focus{
+    border: none;
+}
